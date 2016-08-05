@@ -63,3 +63,4 @@ target/
 
 # Juoyter notebook
 .ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
