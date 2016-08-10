@@ -1,0 +1,18 @@
+wheel
+cython
+--no-binary numpy numpy
+numexpr
+tables
+patsy
+pyzmq
+Pillow
+matplotlib
+scikit-learn
+scikit-bio
+statsmodels
+pandas
+pysam
+pybedtools
+ipython
+jupyter
+bokeh
