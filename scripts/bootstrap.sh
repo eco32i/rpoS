@@ -1,5 +1,4 @@
-#!/bin/bash -e
-
+#!/bin/bash -e 
 tabs 4
 clear
 readonly VENV_DIR=$HOME/.venv
@@ -75,13 +74,13 @@ while true
 do
     case "$1" in
         -a|--all)
-            install_core
+            install_deps
             setup_env
             setup_conda
             shift
             ;;
         -d|--deps)
-            install_core
+            install_deps
             shift
             ;;
         -e|--env)
