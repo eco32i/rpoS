@@ -43,6 +43,8 @@ setup_conda() {
         rm ./Miniconda3-latest-Linux-x86_64.sh
         source $HOME/.bashrc
     fi
+    conda install nbformat
+    conda config -add channels bioconda
     conda env create -f ../environment.yml
 }
 
