@@ -44,7 +44,7 @@ setup_conda() {
         source $HOME/.bashrc
     fi
     conda install nbformat
-    conda config -add channels bioconda
+    conda config --add channels bioconda
     conda env create -f ../environment.yml
 }
 
